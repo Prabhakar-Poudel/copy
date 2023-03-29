@@ -3,6 +3,10 @@
   "displayName": "copy",
   "description": "Copy menu to copy path, file name, etc",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prabhakar-Poudel/copy"
+  },
   "engines": {
     "vscode": "^1.76.0"
   },
