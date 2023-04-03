@@ -2,7 +2,8 @@
   "name": "copy",
   "displayName": "copy",
   "description": "Copy menu to copy path, file name, etc",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "icon": "logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Prabhakar-Poudel/copy"
