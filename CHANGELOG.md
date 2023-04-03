@@ -18,3 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Relative pathe with line number
   - Relative path from workspace
   - Filename
+
+## [0.0.2] - 2023-04-04
+
+### Added
+ - Logo
