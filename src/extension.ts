@@ -17,8 +17,6 @@ const renderCopyMenu = () => {
 	const relativeWithLine = `${relativePath}:${currentLine}`
 	const fileName = relativePath.replace(/^.*[\\\/]/, '')
 
-	console.log(vscode.scm)
-
 	vscode.window
 		.showQuickPick([
 			{ label: 'Absolute Path', description: absolutePath },
