@@ -9,7 +9,7 @@
     "url": "https://github.com/Prabhakar-Poudel/copy"
   },
   "engines": {
-    "vscode": "^1.76.0"
+    "vscode": "^1.78.0"
   },
   "categories": [
     "Other"
