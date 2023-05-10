@@ -1,5 +1,8 @@
 Copy path extension for Visual Studio Code
 
+## cmd/ctrl + shift + c
+To see the magic
+
 
 ## Features
 
