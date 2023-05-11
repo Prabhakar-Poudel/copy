@@ -26,7 +26,8 @@
     ],
     "keybindings": [{
       "command": "copy.path",
-      "key": "shift+cmd+c",
+      "key": "shift+ctrl+c",
+      "mac": "shift+cmd+c",
       "when": "editorFocus"
     }]
   },

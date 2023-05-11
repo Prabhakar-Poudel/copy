@@ -26,7 +26,9 @@ const renderCopyMenu = () => {
 			{ label: 'Path From Workspace Root', description: workspacePath }
 		])
 		.then((selected) => {
-			if (selected) vscode.env.clipboard.writeText(selected?.description)
+			if (selected) {
+				vscode.env.clipboard.writeText(selected?.description)
+			}
 		})
 }
 
