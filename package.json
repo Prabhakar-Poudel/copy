@@ -2,7 +2,7 @@
   "name": "copy",
   "displayName": "copy",
   "description": "Copy menu to copy path, file name, etc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "logo.png",
   "repository": {
     "type": "git",
