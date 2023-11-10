@@ -1,41 +1,33 @@
 export const gitLensOptions = [
 	{
-		kind: -1,
-		label: 'GitLens'
-	},
-	{
-		label: 'Commit SHA',
+		label: '$(gitlens-gitlens) Commit SHA',
 		command: 'gitlens.copyShaToClipboard'
 	},
 	{
-		label: 'Commit Message',
+		label: '$(gitlens-gitlens) Commit message',
 		command: 'gitlens.copyMessageToClipboard'
 	},
 	{
-		label: 'Remote Commit URL',
+		label: '$(gitlens-gitlens) Remote commit URL',
 		command: 'gitlens.copyRemoteCommitUrl'
 	},
 	{
-		label: 'Remote File URL From...',
+		label: '$(gitlens-gitlens) Remote file URL from...',
 		command: 'gitlens.copyRemoteFileUrlFrom'
 	}
 ]
 
 export const gitHubOptions = [
 	{
-		kind: -1,
-		label: 'GitHub Issues'
-	},
-	{
-		label: 'GitHub Permalink',
+		label: '$(mark-github) Permalink',
 		command: 'issue.copyGithubPermalink'
 	},
 	{
-		label: 'Github Permalink as Markdown',
+		label: '$(mark-github) Permalink as markdown',
 		command: 'issue.copyMarkdownGithubPermalink'
 	},
 	{
-		label: 'Github Head Link',
+		label: '$(mark-github) Head link',
 		command: 'issue.copyGithubHeadLink'
 	}
 ]

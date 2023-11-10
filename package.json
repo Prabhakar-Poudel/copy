@@ -22,6 +22,26 @@
       {
         "command": "copy.path",
         "title": "Copy Path or Reference"
+      },
+      {
+        "command": "copy.relativePath",
+        "title": "Copy Path From Content Root"
+      },
+      {
+        "command": "copy.pathWithLineNum",
+        "title": "Copy Path With Line Number"
+      },
+      {
+        "command": "copy.absolutePath",
+        "title": "Copy Absolute Path"
+      },
+      {
+        "command": "copy.fileName",
+        "title": "Copy File Name"
+      },
+      {
+        "command": "copy.pathFromWorkspaceRoot",
+        "title": "Copy Path From Workspace Root"
       }
     ],
     "keybindings": [{
