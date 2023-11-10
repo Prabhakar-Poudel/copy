@@ -44,12 +44,14 @@
         "title": "Copy Path From Workspace Root"
       }
     ],
-    "keybindings": [{
-      "command": "copy.path",
-      "key": "shift+ctrl+c",
-      "mac": "shift+cmd+c",
-      "when": "editorFocus"
-    }]
+    "keybindings": [
+      {
+        "command": "copy.path",
+        "key": "shift+ctrl+c",
+        "mac": "shift+cmd+c",
+        "when": "editorFocus"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
@@ -60,16 +62,12 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
+    "@types/node": "20.9.0",
     "@types/vscode": "^1.78.0",
-    "@types/glob": "^8.1.0",
-    "@types/mocha": "^10.0.2",
-    "@types/node": "20.7.0",
-    "@typescript-eslint/eslint-plugin": "^6.7.3",
-    "@typescript-eslint/parser": "^6.7.3",
-    "eslint": "^8.50.0",
-    "glob": "^10.3.10",
-    "mocha": "^10.2.0",
-    "typescript": "^5.2.2",
-    "@vscode/test-electron": "^2.3.4"
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vscode/test-electron": "^2.3.6",
+    "eslint": "^8.53.0",
+    "typescript": "^5.2.2"
   }
 }
