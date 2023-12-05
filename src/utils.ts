@@ -15,7 +15,7 @@ export const getDescriptions = (editor: TextEditor) => {
 		relativePath,
 		workspacePath,
 		relativeWithLine,
-    absolutePathWithLine,
+        absolutePathWithLine,
 		fileName
 	}
 }
