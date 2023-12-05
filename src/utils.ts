@@ -8,12 +8,14 @@ export const getDescriptions = (editor: TextEditor) => {
 	const currentLine = editor.selection.active.line + 1
 	const relativeWithLine = `${relativePath}:${currentLine}`
 	const fileName = relativePath.replace(/^.*[\\\/]/, '')
+	const absolutePathWithLine = `${editor.document.uri.toString()}#${currentLine}`
 
 	return {
 		absolutePath,
 		relativePath,
 		workspacePath,
 		relativeWithLine,
+    absolutePathWithLine,
 		fileName
 	}
 }

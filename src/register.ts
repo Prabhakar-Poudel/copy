@@ -5,7 +5,8 @@ import {
 	copyPathWithLineNum,
 	copyAbsolutePath,
 	copyFileName,
-	copyPathFromWorkspaceRoot
+	copyPathFromWorkspaceRoot,
+	copyAbsolutePathWithLineNum
 } from './commands'
 
 const registerCommand = (command: string, callback: () => void) => {
@@ -17,6 +18,7 @@ export const registerCommands = () => [
 	registerCommand('copy.relativePath', copyRelativePath),
 	registerCommand('copy.pathWithLineNum', copyPathWithLineNum),
 	registerCommand('copy.absolutePath', copyAbsolutePath),
+	registerCommand('copy.absolutePathWithLineNum', copyAbsolutePathWithLineNum),
 	registerCommand('copy.fileName', copyFileName),
 	registerCommand('copy.pathFromWorkspaceRoot', copyPathFromWorkspaceRoot)
 ]
