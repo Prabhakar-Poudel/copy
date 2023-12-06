@@ -8,13 +8,15 @@ const getBaseCopyOptions = (editor: TextEditor): QuickPickOption[] => {
 		relativeWithLine,
 		absolutePath,
 		fileName,
-		workspacePath
+		absolutePathWithLine,
+		workspacePath,
 	} = getDescriptions(editor)
 
 	return [
 		{ label: '$(code) Path with line number', description: relativeWithLine },
 		{ label: '$(code) Path from content root', description: relativePath },
 		{ label: '$(code) Absolute path', description: absolutePath },
+		{ label: '$(code) Absolute path with line number', description: absolutePathWithLine },
 		{ label: '$(code) File name', description: fileName },
 		{ label: '$(code) Path from workspace root', description: workspacePath }
 	]

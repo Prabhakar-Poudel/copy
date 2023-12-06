@@ -22,3 +22,6 @@ export const copyAbsolutePath = () => copySpecificPath('absolutePath')
 export const copyFileName = () => copySpecificPath('fileName')
 
 export const copyPathFromWorkspaceRoot = () => copySpecificPath('workspacePath')
+
+export const copyAbsolutePathWithLineNum = () =>
+  copySpecificPath('absolutePathWithLine')
